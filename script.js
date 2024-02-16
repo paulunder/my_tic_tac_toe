@@ -105,9 +105,7 @@ cells.forEach(cell => {
 function animateWinningCells(winningCells) {
     winningCells.forEach(cellIndex => {
         const cell = cells[cellIndex];
-
         cell.classList.add('winning-cell');
-
         cell.animate([
             { transform: 'scale(1)', backgroundColor: 'lightgray' },
             { transform: 'scale(1.1)', backgroundColor: 'gold' },
@@ -119,15 +117,8 @@ function animateWinningCells(winningCells) {
             iterations: 3,
             easing: 'ease-in-out',
         });
-
         setTimeout(() => {
             cell.classList.remove('winning-cell');
         }, 2000);
     });
-}
-
-
-
-function startConfettiAnimation() {
-    setInterval(createConfetti, 100);
 }
