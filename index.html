@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tic Tac Toe until you are good at it.">
@@ -11,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- 3rd party library for small confetti animation-->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1"></script>
     <title>Tic Tac Toe</title>
@@ -21,30 +21,28 @@
     <!-- <header> -->
     <header>
 
+        <!-- nav - menu - originated from the love running project (Code Institute) -->
         <a href="index.html">
             <img src="assets/img/tactactoe-logo.png" alt="Tic Tac Toe Logo" id="logo">
         </a>
-
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><span class="visually-hidden">Toggle Navigation</span>
             <span><i class="fa-solid fa-bars"></i></span></label>
-
-
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Tic Tac Toe</a></li>
-
             </ul>
         </nav>
     </header>
 
-
     <!-- <main> -->
     <main>
 
+        <!-- h1 + h2 - for the title of the game -->
         <h1>Tic Tac Toe</h1>
         <h2 class="playerRole">Player X's turn</h2>
 
+        <!-- cells for the game - clickable -->
         <div class="board">
             <div class="cell"></div>
             <div class="cell"></div>
@@ -56,23 +54,24 @@
             <div class="cell"></div>
             <div class="cell"></div>
         </div>
+
+        <!-- message for the winner -->
         <div class="message"></div>
 
+        <!-- button to reset the game -->
         <button onclick="handleRestart() + confetti() + removeConfetti()" class="reset">Reset Game</button>
-
     </main>
 
     <!-- <footer> -->
     <footer>
         <ul>
             <li>&copy; 2024 Tic Tac Toe. All rights reserved.</li>
-
         </ul>
     </footer>
 
+    <!-- scripts for implementing the logic and some icons -->
     <script src="https://kit.fontawesome.com/29f2fad7e0.js" crossorigin="anonymous"></script>
     <script src="assets/script.js"></script>
-
 </body>
 
 </html>
