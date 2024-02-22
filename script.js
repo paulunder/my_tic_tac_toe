@@ -54,6 +54,18 @@ function checkResult() {
 
     if (roundWon) {
         message.textContent = `Player ${currentPlayer} wins!`;
+        message.style.fontWeight = 'bold';
+        message.style.fontSize = '30px';
+        message.style.color = 'white';
+        message.style.backgroundColor = '#4CAF50';
+        message.style.padding = '10px';
+        message.style.borderRadius = '5px';
+        message.style.transition = 'all 0.5s';
+        message.style.width = 'fit-content';
+        message.style.marginLeft = 'auto';
+        message.style.marginRight = 'auto';
+        message.style.marginTop = '30px';
+        message.style.marginBottom = '30px';
         playerRole.textContent = '';
         gameActive = false;
         animateWinningCells(
@@ -83,9 +95,20 @@ function togglePlayer() {
 
 }
 
-
-
 function handleRestart() {
+    message.textContent = `Player ${currentPlayer} wins!`;
+    message.style.fontWeight = 'bold';
+    message.style.fontSize = '30px';
+    message.style.color = 'white';
+    message.style.backgroundColor = '#ECECEC';
+    message.style.padding = '0px';
+    message.style.borderRadius = '0px';
+    message.style.transition = 'all 0.5s';
+    message.style.width = 'fit-content';
+    message.style.marginLeft = 'auto';
+    message.style.marginRight = 'auto';
+    message.style.marginTop = '0px';
+    message.style.marginBottom = '0px';
     gameActive = true;
     currentPlayer = 'X';
     playerRole.textContent = `Player ${currentPlayer}'s turn`;
