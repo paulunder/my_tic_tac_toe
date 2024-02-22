@@ -59,7 +59,7 @@ function checkResult() {
         message.style.fontWeight = 'bold';
         message.style.fontSize = '30px';
         message.style.color = 'white';
-        message.style.backgroundColor = '#4CAF50';
+        message.style.backgroundColor = '#00003c';
         message.style.padding = '10px';
         message.style.borderRadius = '5px';
         message.style.transition = 'all 0.5s';
