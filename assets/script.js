@@ -1,5 +1,3 @@
-// import confetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1';
-
 const board = document.querySelector('.board');
 const cells = document.querySelectorAll('.cell');
 const message = document.querySelector('.message');
