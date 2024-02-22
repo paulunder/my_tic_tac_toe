@@ -9,6 +9,7 @@ let currentPlayer = 'X';
 let gameActive = true;
 let gameState = ['', '', '', '', '', '', '', '', ''];
 
+// winning combinations to check for the result
 const winningCombinations = [
     [0, 1, 2],
     [3, 4, 5],
@@ -20,6 +21,7 @@ const winningCombinations = [
     [2, 4, 6]
 ];
 
+// handle the cell click event - what happens when a cell is clicked
 function handleCellClick(event) {
     const clickedCell = event.target;
     const clickedCellIndex = Array.from(cells).indexOf(clickedCell);
@@ -36,6 +38,7 @@ function handleCellClick(event) {
     togglePlayer();
 }
 
+// check the result of the game every time a cell is clicked
 function checkResult() {
     let roundWon = false;
     for (let i = 0; i < winningCombinations.length; i++) {
@@ -52,6 +55,7 @@ function checkResult() {
         }
     }
 
+    // if the game is won, display the winning message and make the game inactive
     if (roundWon) {
         message.textContent = `Player ${currentPlayer} wins!`;
         message.style.fontWeight = 'bold';
@@ -85,6 +89,7 @@ function checkResult() {
     }
 }
 
+// toggle the player for displaying it at the UI
 function togglePlayer() {
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
     if (gameActive) {
@@ -95,6 +100,7 @@ function togglePlayer() {
 
 }
 
+// handle the restart of the game
 function handleRestart() {
     message.textContent = `Player ${currentPlayer} wins!`;
     message.style.fontWeight = 'bold';
@@ -124,6 +130,7 @@ cells.forEach(cell => {
     cell.addEventListener('click', handleCellClick);
 });
 
+// animate the winning cells and do other animations to show somebody has won
 function animateWinningCells(winningCells) {
     try {
         startConfetti();
@@ -150,9 +157,9 @@ function animateWinningCells(winningCells) {
     });
 }
 
+// confetti animation - slightly changed from the original script 
 //******************************************** */
 // third party script - confetti.js - https://www.cssscript.com/confetti-falling-animation/
-
 var maxParticleCount = 150; //set max confetti count
 var particleSpeed = 2; //set the particle animation speed
 var startConfetti; //call to start confetti animation
