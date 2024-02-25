@@ -95,9 +95,30 @@ The goal of this project was to achieve a suprise by playing tic tac toe - a wel
 ### Colour Scheme
 
 The color scheme is very simple and based on the game colors. The main colors used are:
-- ![#ADD8E6](<img src="docs/colors/add8e6.png">) `#ADD8E6` - low contrast color
-- ![#D3D3D3](<img src="docs/colors/d3d3d3.png">) `#D3D3D3` - background color
-- ![#00003C](<img src="docs/colors/00003c.png">) `#00003C` - high contrast color
+- `#ADD8E6` - low contrast color
+- `#D3D3D3` - background color
+- `#00003C` - high contrast color
 
 The pallet used was found on [Coloors.co](https://coolors.co/)
 <img src="docs/colors/color_palette.png">
+
+### Fonts
+
+I implemented Google Fonts into the website. The font used is 'Poppins', sans-serif. The font was chosen for its readability and simplicity. Also much more important the look fr the letters X and O was impacting the choice of the font.
+
+### Structure
+
+The structure of the website was designed to be very simple and easy accessible. You have directly the game on the main page and you can start playing immediately. 
+
+- The game consist of the following screens:
+- Main game screen / Home Page - there you can play Tic tac Toe
+- A separate 404 error page
+
+### Wireframes
+
+<details><summary>Main Page</summary>
+<img src="docs/wireframes/main_page.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/wireframes/404.png">
+</details>
