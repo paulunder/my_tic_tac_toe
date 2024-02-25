@@ -87,11 +87,11 @@ The goal of this project was to achieve a suprise by playing tic tac toe - a wel
 
 ### Site Owner
 
-8. I want users to easily understand the game
-9. I want the users to challenge each other
-10. I want my game to be fully responsive
-11. I want the user to come to a 404 error page instead of having to use the browser back button if they enter a url that does not exist
-12. I want that the user can contact me if they have any questions or feature requests
+10. I want users to easily understand the game
+11. I want the users to challenge each other
+12. I want my game to be fully responsive
+13. I want the user to come to a 404 error page instead of having to use the browser back button if they enter a url that does not exist
+14. I want that the user can contact me if they have any questions or feature requests
 
 ## Design
 
@@ -358,6 +358,67 @@ The website was tested on the following devices:
 <details><summary>Screenshot</summary>
 <img src="docs/user-stories/user-story-d.png">
 </details>
+
+
+10. I want users to easily understand the game
+
+| **Feature**             | **Action**                                                                                                                  | **Expected Result**                             | **Actual Result** |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ----------------- |
+| Intuitive Structure of the site | Just 1 click and the user should know what to do | an X or O pops up | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-a.png">
+</details>
+
+11. I want the users to challenge each other
+
+| **Feature**                                   | **Action**                | **Expected Result**                      | **Actual Result** |
+| --------------------------------------------- | ------------------------- | ---------------------------------------- | ----------------- |
+| The winner gets confetti | User makes a win | Some feedback to the winner - Confetti appears | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-c.png">
+</details>
+
+12. I want my game to be fully responsive
+
+| **Feature**    | **Action**           | **Expected Result**                                                                       | **Actual Result** |
+| -------------- | -------------------- | ----------------------------------------------------------------------------------------- | ----------------- |
+| media queries | page can be displayed in nearly all devices | page content is working with the width of the device | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-e.png">
+</details>
+
+13. I want the user to come to a 404 error page instead of having to use the browser back button if they enter a url that does not exist
+
+| **Feature**  | **Action**                                                  | **Expected Result**                                              | **Actual Result** |
+| ------------ | ----------------------------------------------------------- | ---------------------------------------------------------------- | ----------------- |
+| 404 error page | Page cannot be found | When a user types the wrong address or cannot find a page they are rerouted to a 404 page | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-d.png">
+</details>
+
+14. I want that the user can contact me if they have any questions or feature requests
+
+| **Feature**  | **Action**                                                  | **Expected Result**                                              | **Actual Result** |
+| ------------ | ----------------------------------------------------------- | ---------------------------------------------------------------- | ----------------- |
+| Contact Form | User fills in the contact form and clicks the submit button | User gets a formdump from Code Institute  | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/user-stories/user-story-f.png">
+</details>
+
+
+
+
+
+
+
+
+
+
 
 
 
