@@ -20,6 +20,13 @@ p {
     font-size: 24px;
 }
 
+.active {
+    background-color: #add8e6;
+    color: #00003c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .button_404 {
     display: block;
     margin: 20px auto;
@@ -90,7 +97,7 @@ p {
 }
 
 .reset:hover {
-    background-color: #495c5d;
+    background-color: #00003c;
     color: white;
 }
 
@@ -190,6 +197,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    position: absolute;
 }
 
 footer li {
@@ -208,7 +216,6 @@ footer li {
 form {
     display: flex;
     flex-direction: column;
-    width: 90%;
     justify-content: center;
     align-items: center;
     padding: 3%;
