@@ -410,17 +410,27 @@ The website was tested on the following devices:
 <img src="docs/user-stories/user-story-f.png">
 </details>
 
+## Bugs
 
+| Bug                                                                                                                                         | Fix                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| On phone device the footer appeared above the game             | deleted "position: absolute" in footer CSS  |
+| WAVE validation said that it there is low contrast on the reset button                                                                       | changed color to have more contrast                                              |
+| Winning combination was wrong - so the game thought somebody won while the haven't                                                                        | corrected the winning combinations                              |
 
+## Deployment
 
+### GitHub Pages
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+5. The link to your published website will appear: "Your site is published at https://paulunder.github.io/my_tic_tac_toe/"
 
+## Credits
 
-
-
-
-
-
-
-
-
-
+## Acknowledgements
+Many thanks to everyone who supported me in the development of the website:
+- Most importantly, to my mentor Mo Shami for professional guidance and making me think outside of the box
+- Friends and family who was supporting me during this project
