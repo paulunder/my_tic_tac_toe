@@ -275,7 +275,7 @@ The website was tested on the following devices:
 | Intuitive Structure | Click on the boxes | Some Action happens | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 2. I want to play a game with my friend
@@ -285,7 +285,7 @@ The website was tested on the following devices:
 | PlayerRole changes | Make your turn | PlayerRole changes from X to O or from O to X | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 3. I want to use the game on my mobile, tablet and desktop
@@ -295,7 +295,7 @@ The website was tested on the following devices:
 | Responsiveness | Open the game at another device | The game should be playable on all devices | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 4. I want to be able to make a win with my friend
@@ -305,7 +305,7 @@ The website was tested on the following devices:
 | Clarifies who has won | Play the game and see who wins | Some text should appear to clarify who has won | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 5. I want to be able to see who has won
@@ -315,7 +315,7 @@ The website was tested on the following devices:
 | Clarifies who has won | Play the game and see who wins | Some text should appear to clarify who has won | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 
@@ -326,7 +326,7 @@ The website was tested on the following devices:
 | PlayerRole changes | Make your turn | PlayerRole changes from X to O or from O to X | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 7. I want to be able to see the result of the game
@@ -336,7 +336,7 @@ The website was tested on the following devices:
 | Correct Guess Screen | Guess the hidden phrase within specific number of guesses for the game level selected | The message and number of points scored in the round displayed. | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 8. I want to contact the developer if I have any questions
@@ -346,7 +346,7 @@ The website was tested on the following devices:
 | Contact Form | Click on Contact link | The Contact form should appear | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
 
 9. I want to easily navigate throught the site
@@ -356,14 +356,8 @@ The website was tested on the following devices:
 | 404 page | If the user has a typo | The site will redirect the User to 404 page | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-testing/user-story-a.png">
+<img src="docs/user-stories/user-story-a.png">
 </details>
-
-
-
-
-
-
 
 
 
