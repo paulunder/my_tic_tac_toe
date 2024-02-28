@@ -432,5 +432,5 @@ The website was deployed using GitHub Pages by following these steps:
 
 ## Acknowledgements
 Many thanks to everyone who supported me in the development of the website:
-- Most importantly, to my mentor Mo Shami for professional guidance and making me think outside of the box
+- Most importantly, to my mentor Mo Shami for professional and efficient guidance
 - Friends and family who was supporting me during this project
