@@ -1,4 +1,3 @@
-const board = document.querySelector('.board');
 const cells = document.querySelectorAll('.cell');
 const message = document.querySelector('.message');
 const playerRole = document.querySelector('.playerRole');

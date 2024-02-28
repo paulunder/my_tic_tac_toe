@@ -151,7 +151,7 @@ The structure of the website was designed to be very simple and easy accessible.
 
 ## Features
 
-The website has 3 webpages consisting of 11 distinct features described below.
+The website has 3 webpages consisting of 3 distinct features described below.
 
 ### Home screen
 
@@ -214,17 +214,17 @@ When validating all website, it passes with no errors.
 
 ### JavaScript Validation
 
-JSHint JS Validation Service was used to validate the Javascript files. No significant issues were found.
+JSHint JS Validation Service was used to validate the Javascript files. Some issues were found by the validator and I wanna address these.
+- One unused variable: ```handleRestart``` - this variable is used in the HTML file and not in the JS file.
+- One undefined variable: ```requestAnimFrame``` - this variable was written by the 3rd party script which I adressed in the code.
 
-<details><summary>game.js</summary>
-<img src="docs/validation/validation-js-game.JPG">
+<details><summary>Javascript Validation Metrics</summary>
+<img src="docs/validation/JSHint-validation-metrics.png">
 </details>
-<details><summary>game-data.js</summary>
-<img src="docs/validation/validation-js-game-data.JPG">
+<details><summary>Javascript Validation Errors</summary>
+<img src="docs/validation/JSHint-validation-error.png">
 </details>
-<details><summary>contact-form.js</summary>
-<img src="docs/validation/validation-js-contact.JPG">
-</details>
+
 
 ### Accessibility
 
