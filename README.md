@@ -261,7 +261,7 @@ The website was tested on the following devices:
 ### Browser compatibility
 
 - Testing has been carried out on the following browsers:
-  - Googe Chrome Browser
+  - Google Chrome Browser
   - Firefox Browser
   - Brave Browser
 
